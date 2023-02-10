@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <header id="title">
+      <h1>Generate a <span>random password</span></h1>
+      <p>Never use a an insecure password again</p>
+      <button onclick="onClick()">
+        <img src="img/lightning bolt.png" alt="Lightning bolt icon" />
+        <p>Generate Passwords</p>
+      </button>
+    </header>
+    <hr />
+    <main class="passwords-generated">
+      <p id="password1" class="new-passwords">
+        <img src="img/waiting.png" alt="pending icon" />
+      </p>
+      <p id="password2" class="new-passwords">
+        <img src="img/waiting.png" alt="pending icon" />
+      </p>
+      <p id="password3" class="new-passwords">
+        <img src="img/waiting.png" alt="pending icon" />
+      </p>
+      <p id="password4" class="new-passwords">
+        <img src="img/waiting.png" alt="pending icon" />
+      </p>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
